@@ -1,7 +1,5 @@
-let numero = -10 
+let numero = -10;
 
-if (numero > 0) {
-    console.log("Número positivo");
-} else if (numero < 0) {
-    console.log("Número negativo");
-}
+let status = numero >= 0 ? "Positivo" : "Negativo"
+
+console.log(status)
